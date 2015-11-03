@@ -1,4 +1,6 @@
 # adage
+[![DOI](https://zenodo.org/badge/19060/greenelab/adage.svg)](https://zenodo.org/badge/latestdoi/19060/greenelab/adage)
+
 This is the repository for ADAGE (Analysis using Denoising Autoencoders for Gene Expression)
 
 This repository provides the source code in support of the manuscript "ADAGE-based analysis of publicly available gene expression data collections illuminates Pseudomonas aeruginosa-host interactions" (submitted). 
