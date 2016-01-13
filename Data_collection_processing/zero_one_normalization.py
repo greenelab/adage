@@ -43,7 +43,7 @@ def zero_one_normal(tar=None, out=None, ref=None):
             row_maximum = ref_data.data_matrix[i, :].max()
             row_range = row_maximum - row_minimum
             tar_data.data_matrix[i, :] =\
-            (tar_data.data_matrix[i, :] - row_minimum)/row_range
+                (tar_data.data_matrix[i, :] - row_minimum)/row_range
             # bound the values to be between 0 and 1
             tar_data.data_matrix[i, :] =\
                 [0 if x < 0 else x for x in tar_data.data_matrix[i, :]]
