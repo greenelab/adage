@@ -7,8 +7,8 @@ reference dataset.
 
 import sys
 import argparse
-from pcl import PCLfile
 sys.path.insert(0, 'Data_collection_processing/')
+from pcl import PCLfile
 
 parser = argparse.ArgumentParser(description="Linearly scale the expression range\
  of one gene to be between 0 and 1. If a reference dataset is provided, then \
