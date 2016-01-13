@@ -46,9 +46,9 @@ def zero_one_normal(tar=None, out=None, ref=None):
             (tar_data.data_matrix[i, :] - row_minimum)/row_range
             # bound the values to be between 0 and 1
             tar_data.data_matrix[i, :] =\
-            [0 if x < 0 else x for x in tar_data.data_matrix[i, :]]
+                [0 if x < 0 else x for x in tar_data.data_matrix[i, :]]
             tar_data.data_matrix[i, :] =\
-            [1 if x > 1 else x for x in tar_data.data_matrix[i, :]]
+                [1 if x > 1 else x for x in tar_data.data_matrix[i, :]]
         tar_data.write_pcl(out)
 
 zero_one_normal(tar=args.tar, out=args.out, ref=args.ref)
