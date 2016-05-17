@@ -3,7 +3,7 @@
 
 This is the repository for ADAGE (Analysis using Denoising Autoencoders for Gene Expression)
 
-This repository provides the source code in support of the manuscript "ADAGE-based analysis of publicly available gene expression data collections illuminates Pseudomonas aeruginosa-host interactions" (submitted). 
+This repository provides the source code in support of the manuscript: [ADAGE-Based Integration of Publicly Available Pseudomonas aeruginosa Gene Expression Data with Denoising Autoencoders Illuminates Microbe-Host Interactions](http://msystems.asm.org/content/1/1/e00025-15). J Tan, JH Hammond, DA Hogan, CS Greene. *mSystems*, 00025-15. 
 
 ############################################################
 
