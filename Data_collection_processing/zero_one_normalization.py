@@ -19,7 +19,7 @@ parser.add_argument('out', help='the output file after zero one normalization')
 parser.add_argument('ref', help='the reference file. If reference file\
  is \'None\', then zero one normalization will be done based on\
  target file itself.')
- args = parser.parse_args()
+args = parser.parse_args()
 
 
 def zero_one_normal(tar=None, out=None, ref=None):
